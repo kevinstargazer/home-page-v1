@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dominic Yin | Personal Home Page</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Back to home">
+      <span class="brand-mark">DY</span>
+      <span>Dominic Yin</span>
+    </a>
+
+    <nav class="site-nav" aria-label="Primary navigation">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <p class="eyebrow">ERP Consultant / AI Workflow Builder</p>
+        <h1>把 ERP 經驗與 AI 自動化，整理成真正能落地的工作流程。</h1>
+        <p class="hero-copy">
+          我專注於 Dynamics 365 Business Central、Power Platform 與 AI workflow，協助團隊把複雜需求轉成清楚、可維護、能持續改善的系統。
+        </p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">查看作品</a>
+          <a class="button button-secondary" href="#contact">聯絡我</a>
+        </div>
+      </div>
+
+      <div class="profile-panel" aria-label="Profile summary">
+        <div class="portrait">
+          <span>DY</span>
+        </div>
+        <div class="profile-card">
+          <span class="card-label">Current Focus</span>
+          <strong>ERP x AI Workflow</strong>
+          <p>Business Central implementation, process automation, and practical AI assistants.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="section-heading">
+        <p class="eyebrow">About Me</p>
+        <h2>用顧問視角理解流程，用工程方法把它做穩。</h2>
+      </div>
+      <div class="about-grid">
+        <p>
+          我熟悉 ERP 專案導入、需求訪談、流程設計與跨部門溝通，也持續探索如何用 AI 工具降低重複作業，讓團隊把時間放在判斷與決策上。
+        </p>
+        <p>
+          目前的興趣集中在 Copilot Studio、Power Automate、Python 與 .NET，喜歡把零散的營運知識整理成可重複使用的工具、文件與範本。
+        </p>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="section-heading">
+        <p class="eyebrow">Skills</p>
+        <h2>我常用的技術與工具</h2>
+      </div>
+      <div class="skill-grid">
+        <article class="skill-card">
+          <h3>AI Workflow</h3>
+          <p>Copilot Studio, prompt design, workflow automation, knowledge assistant planning.</p>
+        </article>
+        <article class="skill-card">
+          <h3>ERP</h3>
+          <p>Dynamics 365 Business Central, implementation consulting, requirement mapping.</p>
+        </article>
+        <article class="skill-card">
+          <h3>Power Platform</h3>
+          <p>Power Automate, Power Apps, Dataverse basics, low-code business solutions.</p>
+        </article>
+        <article class="skill-card">
+          <h3>Development</h3>
+          <p>Python, .NET, Docker, API integration, lightweight internal tooling.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projects">
+      <div class="section-heading">
+        <p class="eyebrow">Projects</p>
+        <h2>近期可展示的作品方向</h2>
+      </div>
+      <div class="project-list">
+        <a class="project-item" href="https://github.com/" target="_blank" rel="noreferrer">
+          <span>01</span>
+          <div>
+            <h3>Louvois Salary</h3>
+            <p>薪資與 ERP 流程相關工具，可延伸成內部自動化專案展示。</p>
+          </div>
+        </a>
+        <a class="project-item" href="https://github.com/" target="_blank" rel="noreferrer">
+          <span>02</span>
+          <div>
+            <h3>ERP Spec Template</h3>
+            <p>把顧問訪談與規格整理變成可複用的專案文件模板。</p>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div>
+        <p class="eyebrow">Contact</p>
+        <h2>想聊 ERP、AI workflow，或一起把流程變簡單？</h2>
+      </div>
+      <div class="contact-actions">
+        <a class="button button-primary" href="mailto:xxx" id="emailLink">Email: xxx</a>
+        <button class="button button-secondary" type="button" id="copyEmail" data-email="xxx">複製 Email</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Dominic Yin. Built with focus and curiosity.</p>
+  </footer>
+
+  <script src="index.js"></script>
+</body>
+</html>
